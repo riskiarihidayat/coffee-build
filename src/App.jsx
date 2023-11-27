@@ -3,7 +3,7 @@ import React from 'react'
 import { Navbar } from './components'
 import { Hero, About, Products, Steps, Testimonial, Footer } from './containers'
 
-export default function App() {
+function App() {
   return (
     <main>
       <Navbar />
@@ -16,3 +16,5 @@ export default function App() {
     </main>
   )
 }
+
+export default App

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .mob-nav-icons {
+    @apply text-mob-h1 text-sage mb-[4px];
+  }
+
+  .mob-nav-links {
+    @apply font-cursive font-normal text-white text-mob-smaller duration-500 hover:text-sage;
+  }
+
+  .desk-nav-links {
+    @apply font-cursive font-normal text-white text-desk-h4 duration-500 hover:text-sage;
+  }
+}
