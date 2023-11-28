@@ -2,7 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 @layer components {
+  /* all paragraph style */
+  .paragraph {
+    @apply font-sans text-mob-h4 font-normal text-white text-center md:text-desk-h4;
+  }
+
+  .section-rounded {
+    @apply w-screen h-14 rounded-t-full absolute bottom-0 left-0 right-0;
+  }
+
   .mob-nav-icons {
     @apply text-mob-h1 text-sage mb-[4px];
   }
@@ -13,5 +28,9 @@
 
   .desk-nav-links {
     @apply font-cursive font-normal text-white text-desk-h4 duration-500 hover:text-sage;
+  }
+
+  .mob-product-detail {
+    @apply font-cursive text-mob-h2 text-white font-normal;
   }
 }
