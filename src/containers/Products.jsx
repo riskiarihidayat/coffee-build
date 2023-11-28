@@ -14,10 +14,10 @@ export default function Products() {
           <p className='font-sans text-mob-h4 font-medium text-white md:text-desk-h4'>Scroll Down</p>
           <MdOutlineKeyboardArrowRight className='text-2xl text-white rotate-90' />
         </button>
-        <p className='paragraph md:text-start'>We strive to form deep partnerships with farmers from all over the world to create perspective together and form healthy working relationships built on trust and respect.</p>
+        <p className='paragraph text-center md:text-start'>We strive to form deep partnerships with farmers from all over the world to create perspective together and form healthy working relationships built on trust and respect.</p>
       </div>
       <div className='flex md:flex-[2] md:justify-end'>
-        <div className='flex flex-wrap justify-center items-center gap-14'>
+        <div className='flex flex-wrap justify-center items-center gap-14 m-auto'>
           <div className='text-center'>
             <img src={product1} alt="Coffee Product" className='w-[120px] mb-6' />
             <div>

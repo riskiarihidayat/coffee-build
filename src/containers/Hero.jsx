@@ -24,7 +24,7 @@ export default function Hero() {
             </h1>
           </div>
         </div>
-        <p className='paragraph mb-8 md:text-start md:text-desk-h4 md:mb-12'>
+        <p className='paragraph mb-8 text-center md:text-start md:text-desk-h4 md:mb-12'>
           Each select coffee bean reflects our commitment to Peruvian coffee
           growers, who bring the best select coffee to your table.
         </p>

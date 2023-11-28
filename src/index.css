@@ -11,11 +11,15 @@
 @layer components {
   /* all paragraph style */
   .paragraph {
-    @apply font-sans text-mob-h4 font-normal text-white text-center md:text-desk-h4;
+    @apply font-sans text-mob-h4 font-normal text-white md:text-desk-h4;
+  }
+
+  .section-title {
+    @apply font-cursive text-mob-big font-normal md:text-desk-big;
   }
 
   .section-rounded {
-    @apply w-screen h-14 rounded-t-full absolute bottom-0 left-0 right-0;
+    @apply w-screen h-10 rounded-t-full absolute bottom-0 left-0 right-0;
   }
 
   .mob-nav-icons {
