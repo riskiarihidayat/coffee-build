@@ -7,6 +7,9 @@ export default {
       cursive: ['Pacifico', 'cursive'],
     },
     extend: {
+      backgroundImage: {
+        'mob-steps': "url('./src/assets/bg-mob-steps.png')"
+      },
       fontSize: {
         // Mobile Font Size
         'mob-biggest': '2.75rem',

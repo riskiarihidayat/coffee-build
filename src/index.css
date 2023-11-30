@@ -9,7 +9,7 @@
 }
 
 @layer components {
-  /* all paragraph style */
+  /* section style */
   .paragraph {
     @apply font-sans text-mob-h4 font-normal text-white md:text-desk-h4;
   }
@@ -22,6 +22,7 @@
     @apply w-screen h-10 rounded-t-full absolute bottom-0 left-0 right-0;
   }
 
+  /* custom style */
   .mob-nav-icons {
     @apply text-mob-h1 text-sage mb-[4px];
   }
@@ -36,5 +37,9 @@
 
   .mob-product-detail {
     @apply font-cursive text-mob-h2 text-white font-normal;
+  }
+
+  .steps-image {
+    @apply w-[120px] md:w-52;
   }
 }

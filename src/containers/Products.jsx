@@ -1,7 +1,7 @@
 import React from 'react'
 
+import ProductsCard from '../components/ProductsCard'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
-
 import product1 from './../assets/product-1.png'
 import product2 from './../assets/product-2.png'
 import product3 from './../assets/product-3.png'
@@ -18,27 +18,21 @@ export default function Products() {
       </div>
       <div className='flex md:flex-[2] md:justify-end'>
         <div className='flex flex-wrap justify-center items-center gap-14 m-auto'>
-          <div className='text-center'>
-            <img src={product1} alt="Coffee Product" className='w-[120px] mb-6' />
-            <div>
-              <p className='mob-product-detail'>Classic Coffee</p>
-              <p className='mob-product-detail'>$17.90</p>
-            </div>
-          </div>
-          <div className='text-center'>
-            <img src={product2} alt="Coffee Product" className='w-[120px] mb-6' />
-            <div>
-              <p className='mob-product-detail'>Black Coffee</p>
-              <p className='mob-product-detail'>$24.90</p>
-            </div>
-          </div>
-          <div className='text-center'>
-            <img src={product3} alt="Coffee Product" className='w-[120px] mb-6' />
-            <div>
-              <p className='mob-product-detail'>Strong Coffee</p>
-              <p className='mob-product-detail'>$32.90</p>
-            </div>
-          </div>
+          <ProductsCard
+            img={product1}
+            productName='Classic Coffee'
+            productPrice='$17.90'
+          />
+          <ProductsCard
+            img={product2}
+            productName='Black Coffee'
+            productPrice='$24.90'
+          />
+          <ProductsCard
+            img={product3}
+            productName='Strong Coffee'
+            productPrice='$32.90'
+          />
         </div>
       </div>
       <div className='section-rounded bg-white'></div>
