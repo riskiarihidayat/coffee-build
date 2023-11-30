@@ -7,7 +7,7 @@ import steps3 from './../assets/steps-3.png'
 
 export default function Steps() {
   return (
-    <section id='steps' className='bg-light-brown bg-mob-steps px-6 pb-[132px] md:px-52'>
+    <section id='steps' className='relative bg-light-brown bg-mob-steps px-6 pb-[132px] md:px-52'>
       <div className='mb-16 md:mb-28'>
         <h1 className='section-title text-white text-center'>Steps of manufacturing our products</h1>
       </div>
