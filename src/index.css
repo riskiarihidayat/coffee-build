@@ -42,4 +42,8 @@
   .steps-image {
     @apply w-[120px] md:w-52;
   }
+
+  .footer-icon {
+    @apply text-mob-h2 text-white md:text-desk-h2;
+  }
 }
